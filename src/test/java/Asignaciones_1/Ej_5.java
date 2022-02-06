@@ -9,7 +9,7 @@ public class Ej_5 {
 	public static void main(String[] args) {
 		//Ejercicio #5
 				/*
-				 Crea un programa donde te pida un número y muestra si es positivo o negativo y si es par o impar
+				 * Crea un programa donde te pida un número y muestra si es positivo o negativo y si es par o impar
 				 */
 				int numero1, numero2;
 				entrada = new Scanner(System.in);

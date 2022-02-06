@@ -5,8 +5,9 @@ public class Ej_4 {
 	public static void main(String[] args) {
 		//Ejercicio #4
 				/*
-				Declara 2 variables numéricas enteras (con el valor que desees), he indica cual es mayor de los dos. Si son iguales indicarlo también. Ves cambiando los valores para comprobar 
-				que funciona.*/
+				* Declara 2 variables numéricas enteras (con el valor que desees), he indica cual es mayor de los dos. Si son iguales indicarlo también. Ves cambiando los valores para comprobar 
+				* que funciona.
+				*/
 				
 				int edad1= 20, edad = 20, mayorEdad = 45;
 				
