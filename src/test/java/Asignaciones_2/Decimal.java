@@ -56,9 +56,6 @@ public class Decimal {
 				break;
 			}
 		}while (opcion !=0);
-    
-    
-
 	}
 
 	public static boolean  areEqualByThreeDecimalPlaces( double x, double y) {
@@ -67,8 +64,8 @@ public class Decimal {
 	    boolean  reto=false;
 	    int contador=3;
 	    
-	    num=x%1; //parte decimal
-		 d=x-num; //parte entera
+	    num=x%1;
+		 d=x-num; 
 		 a=num;
 		 
 		 num2= y%1;
