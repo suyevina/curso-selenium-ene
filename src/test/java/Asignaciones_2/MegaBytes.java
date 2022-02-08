@@ -10,10 +10,10 @@ public class MegaBytes {
 		
 		do {
 			System.out.println("Escoja una de las siguientes opciones: ");
-			System.out.println("1. printMegaBytesAndKiloBytes(2500); ? should print the following text: '2500 KB = 2 MB and 452 KB'");
-			System.out.println("2. printMegaBytesAndKiloBytes(-1024); ? should print the following text: 'Invalid Value' because parameter is less than 0");
-			System.out.println("3. printMegaBytesAndKiloBytes(5000); ? should print the following text:'5000 KB = 4 MB and 904 KB'");
-			System.out.println("4. printMegaBytesAndKiloBytes(2048); ? should print the following text:'2048 KB = 2 MB'");
+			System.out.println("1. printMegaBytesAndKiloBytes(2500);  should print the following text: '2500 KB = 2 MB and 452 KB'");
+			System.out.println("2. printMegaBytesAndKiloBytes(-1024);  should print the following text: 'Invalid Value' because parameter is less than 0");
+			System.out.println("3. printMegaBytesAndKiloBytes(5000);  should print the following text:'5000 KB = 4 MB and 904 KB'");
+			System.out.println("4. printMegaBytesAndKiloBytes(2048);  should print the following text:'2048 KB = 2 MB'");
 			System.out.println("0. Salir");
 			
 			System.out.println("Opción: ");

@@ -13,10 +13,10 @@ public class BarkingDog {
 		
 		do {
 			System.out.println("Escoja una de las siguientes opciones: ");
-			System.out.println("1.- shouldWakeUp (true, 1); ? should return true");
-			System.out.println("2.- shouldWakeUp (false, 2); ? should return false since the dog is not barking.");
-			System.out.println("3.- shouldWakeUp (true, 8); ? should return false, since it's not before 8. ");
-			System.out.println("4.- shouldWakeUp (true, -1); ? should return false since the hourOfDay parameter needs to be in a range 0-23. ");
+			System.out.println("1.- shouldWakeUp (true, 1);  should return true");
+			System.out.println("2.- shouldWakeUp (false, 2);  should return false since the dog is not barking.");
+			System.out.println("3.- shouldWakeUp (true, 8);  should return false, since it's not before 8. ");
+			System.out.println("4.- shouldWakeUp (true, -1);  should return false since the hourOfDay parameter needs to be in a range 0-23. ");
 			System.out.println("0.- Salir");
 			System.out.print("Opción: ");
 	
