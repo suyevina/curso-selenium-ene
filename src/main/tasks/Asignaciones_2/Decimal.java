@@ -63,7 +63,7 @@ public class Decimal {
 	    double a=0, b=0,c=0,d=0, e=0;
 	    boolean  reto=true;
 	    int contador=0;
-	    
+//	    Aplicando modulo de un numero
 //	    num=x%1;
 //		 d=x-num; 
 //		 a=num;
@@ -86,22 +86,16 @@ public class Decimal {
 	    
 //	    Aplicando Casting
 	    num=(int)x;
-	    num2=(int)y;
-	    
+	    num2=(int)y;	    
 	    for(int i=0; i<4;i++) {
 		     if( num==num2) {
-		    	 
 		    	a= x-num;
-		 	    b=y-num2;
-		 	    
+		 	    b=y-num2;		 	    
 		    	x=a*10;
 		    	y=b*10;
-	
 		    	num=(int)x;
 		    	num2=(int)y;	
-		    	
-		    	contador++;
-		    	
+		    	contador++;	
 		    }   
 	    }
 	    if (contador==3) {
@@ -111,3 +105,5 @@ public class Decimal {
 	    }
 	}
 }
+//los decimales con double en la tercera los aproxima y completa con 9 hasta llegar al total de numero permitidos por el tipo de variable preguntar si tiene mas 3 decimales y al llegar al tercero sumar 1
+

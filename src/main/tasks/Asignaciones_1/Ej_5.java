@@ -34,7 +34,7 @@ public class Ej_5 {
 					if (numero2 > 0) {
 					System.out.println("Ambos números son positivo");
 					} else {
-						System.out.println("El primer nú-10mero ingresado es positivo pero el segundo es negativo");
+						System.out.println("El primer número ingresado es positivo pero el segundo es negativo");
 					}
 				} else if (numero1 < 0){ 
 					if (numero2 < 0) {
@@ -55,9 +55,9 @@ public class Ej_5 {
 			            }
 			        }
 					 if(contado <= 2){
-						 System.out.println("El primer número es primo ");
+						 System.out.println("El primer número es impar ");
 					 }else {
-						 System.out.println("El primer número no es primo ");
+						 System.out.println("El primer número es par ");
 					 }
 				}else {
 					System.out.println("El primer número no es un entero positivo ");
@@ -73,10 +73,10 @@ public class Ej_5 {
 		            }
 		        }   
 		        	if (contados <=2) {
-		        		 System.out.println("El segundo número es primo ");
+		        		 System.out.println("El segundo número es impar ");
 		        	}else {
 		        		
-		        		System.out.println("El segundo número no es primo ");
+		        		System.out.println("El segundo número es par ");
 		        	}
 				}else {
 					System.out.println("El segundo número no es un entero positivo ");
