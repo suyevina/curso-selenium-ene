@@ -1,6 +1,8 @@
 package com.java;
 
-public class Loops {
+import com.java.modificadores.Modificador;
+
+public class Loops extends Modificador {
 
 	public static void main(String[] args) {
 		// WHILE
@@ -30,6 +32,11 @@ public class Loops {
 		for(int i=5; i <= numeroLimite; i++) {
 			System.out.println("El numero FOR es: "+ i);
 		}
+		
+		Modificador modificador =  new Modificador();
+//		modificador.sayHello();
+		
+		modificador.invokeSayHello();
 		
 		
 	}

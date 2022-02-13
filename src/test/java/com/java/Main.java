@@ -14,6 +14,9 @@ public class Main {
 
 //		Perro 1
 		Perro perro1 = new  Perro("Schanuzer", "Cafe", "Chico", "Macho");
+		perro1.setRaza("Pomeranio");
+		System.out.println("Mi perro es de raza " + perro1.getRaza());
+		System.out.println("Mi perro es de raza " + perro1.getColor());
 		
 //		Perro 2
 		Perro perro2 = new Perro("San Bernado", "Blanco", "Grande","Cool", 3);

@@ -32,31 +32,37 @@ public class sumOdds {
 			case 1:			
 				suma= sumOdd(1,100);
 				System.out.println(suma);
+				System.out.println("");
 				break;
 				
 			case 2:
 				suma= sumOdd(-1,100);
 				System.out.println(suma);
+				System.out.println("");
 				break;
 			
 			case 3:
 				suma= sumOdd(100,100);
 				System.out.println(suma);
+				System.out.println("");
 				break;
 			
 			case 4:
 				suma= sumOdd(13,13);
 				System.out.println(suma);
+				System.out.println("");
 				break;
 				
 			case 5:
 				suma= sumOdd(100,-100);
 				System.out.println(suma);
+				System.out.println("");
 				break;
 			
 			case 6:
 				suma= sumOdd(100,1000);
-				System.out.println(suma);
+				System.out.println(suma);	
+				System.out.println("");
 				break;
 					
 			default:
@@ -78,35 +84,35 @@ public class sumOdds {
 				if (number % i == 0) {
 					contador++;
 				}
-				
+				i++;
+			} while ( i <=number);	
+			
 				if (contador<=2) {
 					retorno=true;
+					System.out.print(number+", ");
 				} else  {
 					retorno = false;
 				}
-				i++;
-			} while ( i <=number);		
+				
 			
 		}else {
 			retorno = false;
 		}
+
 		return retorno;
 	}
 	
 	public static int sumOdd(int start, int end) {
 		boolean reto=false;
 		int sum=0;
-		int j=start;
-		
-		do {
+
+		for (int j=start; j<=end; j++) {
 			reto = isOdd(j);
 			
 			if (reto) {
 				sum = sum + j;
 			}
-			
-			j++;	
-		} while (j <= end);
+		}
 		
 		if(start == end && !reto) {
 			return 0;
