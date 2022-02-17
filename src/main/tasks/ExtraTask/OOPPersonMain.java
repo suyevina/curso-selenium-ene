@@ -6,26 +6,21 @@ public class OOPPersonMain {
 		int bucle ;
 		Person person = new Person();
 		Scanner opciones = new Scanner(System.in);
-		person.firstName = null;
-		person.lastName = null;
 		
 		do {
 			System.out.print("Ingrese su Nombre: ");
-		    person.firstName = opciones.nextLine();
-
+		    person.setFirstName(opciones.nextLine());
 		    
 			System.out.print("Ingrese su Apellido: ");
-			person.lastName= opciones.nextLine();
-
-			
+			person.setLastName(opciones.nextLine());
+	
 			System.out.print("Ingrese su Edad: ");
-			person.age= opciones.nextInt();
+			person.setAge(opciones.nextInt());
 
 
 			System.out.println("");
-			System.out.println("Nombre ingresado:"+person.firstName);
-			System.out.println("Apellido ingresado:"+person.lastName);
-			System.out.println("Edad ingresada:  "+person.age + ". Esta persona es adolescente?: "+ person.isTeen());
+			System.out.println("Nombre y Apellido ingresado: "+person.getFullName());
+			System.out.println("Edad ingresada:  "+person.getAge()+ ". Esta persona es adolescente?: "+ person.isTeen());
 			System.out.println("");
 			System.out.print("Continuamos? 1(Si) 0(No) ");
 			System.out.println("");
