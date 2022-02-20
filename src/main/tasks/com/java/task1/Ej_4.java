@@ -1,4 +1,4 @@
-package Asignaciones_1;
+package com.java.task1;
 
 public class Ej_4 {
 

@@ -1,4 +1,4 @@
-package ExtraTask;
+package com.java.extra_task;
 
 public class Person {
 	String firstName;
